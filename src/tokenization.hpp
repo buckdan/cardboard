@@ -96,7 +96,7 @@ class Tokenizer
                 return m_source.at(m_index);
         }
 
-        char consume()
+        inline char consume()
         {
             return m_source.at(m_index++);
         }
